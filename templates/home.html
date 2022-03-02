@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title_bl %}Home{% endblock %}
+
+{% block body_bl %}
+<div class="container">
+    <div>
+        <center><h1 style="padding-bottom:5%;">Blockchain-based E-voting</h1></center>
+    </div>
+    <div class="row">
+        <div class="col-md-5 menu">
+            <h2>"VOTE"</h2>
+            <ul>
+                <li>vote to candidate</li>
+                <li>Signature verification</li>
+                <li>Block sealing process</li>
+            </ul>
+            <div class="btn-menu">
+                <a class="btn btn-outline-primary btn-block btn-menu" href="/vote/" role="button">Vote</a>
+            </div>
+        </div>
+        <div class="col-md-5 menu">
+            <h2>"CHAIN"</h2>
+            <ul>
+                <li>Block chain</li>
+                <li>Block detail</li>
+                <li>Blocks verification</li>
+            </ul>
+            <div class="btn-menu">
+                <a class="btn btn-outline-primary btn-menu" href="/transactions/" role="button">See transactions</a>
+                <a class="btn btn-outline-primary btn-menu" href="/blockchain/" role="button">See blocks</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
