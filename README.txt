@@ -1,6 +1,5 @@
 
-
-Steps to run the project:
+Guidelines to Run the Project:
     1. Clone or download and extract the zip file.
 
     2. Create the virtual environment using the following command,
